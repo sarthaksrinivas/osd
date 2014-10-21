@@ -1,0 +1,149 @@
+/* Global Styles */
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	background: url('bg-80.png') repeat center;
+}
+
+header {
+	background: #FFF;
+}
+
+#logo {
+	display: block;
+	margin: auto;
+	padding: 1% 0 1% 0;
+}
+
+a {
+	text-decoration: none;
+	color: #FFF;
+	font-weight: 300;
+}
+
+nav {
+	display: table;
+	width: 100%;
+	text-align: center;
+	padding: 0 0 2% 0;
+}
+
+ul {
+	display: table-row;
+    background-color: #1BA6DA;
+
+}
+
+li {
+	display: table-cell;
+	width: calc(100% / 3);
+	padding: 1% 0 1% 0;
+	color: #FFF;
+}
+
+li:hover {
+	background: #7F7F7F;	
+}
+
+li:active {
+	background: #1BA6DA;
+}
+
+#main {
+	/*width: calc(100%/ 3 * 2);*/
+	padding: 0% 2% 0 2%;
+	float: left;
+}
+
+#sidebar {
+	width: auto;
+	float: left;
+}
+
+
+h1 {
+	font-size: 2.3em;
+	padding-bottom: 0.1em;
+	font-weight: 700;
+}
+
+p {
+	font-size: 1.5em;
+	padding: 0.22em 0;
+	font-weight: 400;
+}
+
+input {
+	width: 100%;
+	height: 2em;
+}
+
+textarea {
+	width: 100%;
+	height: auto;
+}
+
+#submit {
+    background: #1BA6DA;
+    width: 101.5%;
+    height: 2em;
+    text-align: center;
+    color: white;
+    line-height: 2em;
+    font-size: 1.5em;
+    margin: 2% 0 0 0;
+}
+
+#submit:hover {
+    background: #7F7F7F;
+}
+
+#submit:active {
+    background: #1BA6DA;
+}
+
+#button-bg > a > img {
+	width: 20%;
+	padding: 2%; /* How far grey background should extend*/
+	margin: 6% 0 0 0; /* Distance between img and other elements*/
+	background-color: #7F7F7F;
+	float: left;
+}
+
+#download {
+	margin: 6% 0 0 0;
+	padding: 3% 1.5%;
+	width: 98.5%;
+	text-align: center;
+	background: #1BA6DA;
+	line-height: 1.5em;
+	font-size: 1.5em;
+}
+
+#download:hover {
+    background: #7F7F7F;
+}
+
+#download:active {
+    background: #1BA6DA;
+}
+
+
+/*#button-background {
+	background-color: #7F7F7F;
+
+}
+
+#button-background > img {
+	width: 15%;
+	padding: 3% 3% 3% 0;
+	float: left;
+}
+
+#download {
+	margin: 3% 3% 3% 0;
+	padding: 4% 1.5%;
+	width: 98.5%;
+	text-align: center;
+	background: #1BA6DA;
+	line-height: 1.5em;
+}*/

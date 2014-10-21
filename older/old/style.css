@@ -1,0 +1,27 @@
+#header {
+	height: 145px;
+	width: auto;
+	text-align: center;
+	border-bottom: solid 2px black;
+}
+
+#button {
+	background: #FFA500;
+	width: 640px;
+	height: 20px;
+}
+
+#button > a {
+	padding-top: 10%;
+	margin: auto;
+	text-align: center;
+}
+
+body {
+	background: url('bg.png') repeat 0 145px transparent;
+	text-align: center;
+}
+
+iframe {
+	padding-top: 5%;
+}

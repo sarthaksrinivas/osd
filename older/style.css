@@ -1,0 +1,183 @@
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Global */
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+span {
+    font-weight: 300;
+}
+
+/*Header */
+
+header {
+	text-align: center;
+	padding: 1% 0 1% 0;  padding: top right bottom left 
+    font-weight: 300;
+}
+/***********
+
+
+
+
+
+Nav Behavior Start
+
+
+
+
+
+
+
+****************/
+.tabs {
+    margin:  0;
+    padding: 0;
+    list-style: none;
+    display: table; /* [1] */
+    table-layout: fixed; /* [2] */
+    width: 100%; /* [3] */
+}
+
+    .tabs__item {
+        display: table-cell; /* [4] */
+    }
+
+        .tabs__link {
+            display: block; /* [5] */
+        }
+
+
+/**
+ * Primary nav. Extends `.tabs`.
+ *
+ * 1. Stop tabs’ corners leaking out beyond our 4px round.
+ */
+.primary-nav {
+    text-align: center;
+    overflow: hidden; /* [1] */
+}
+
+        .primary-nav a {
+            padding: 1em;
+            background-color: #1BA6DA;
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .primary-nav a:hover {
+            background-color: #7F7F7F/**/;
+        }
+        .primary-nav a:active {
+            background-color: #1BA6DA/**/;
+        }
+
+/***********
+
+
+
+
+
+Nav Behavior End
+
+
+
+
+
+
+
+****************/
+
+/* Grid */
+div {
+    float: left;
+	/*width: auto;*/
+}
+
+#main {
+	width: 63%;
+    padding: 2% 0 2% 2%;
+
+}
+
+#feedback {
+    padding: 2% 0 2% 2%;
+    /*background: #CCC;*/
+}
+
+/* Feedback */
+h1 {
+    font-weight: 700;
+    font-size: 2.3em;
+    padding-bottom: 2%;
+}
+
+form > p {
+    padding-bottom: 2%;
+}
+
+#submit {
+    background: #1BA6DA;
+    width: 100%;
+    height: 2em;
+    text-align: center;
+    color: white;
+    line-height: 2em;   
+}
+
+#submit:hover {
+    background: #7F7F7F;
+}
+
+#submit:active {
+    background: #1BA6DA;
+}
+
+#feedback > a > img {
+    width: 31%;
+
+}
+
+
+
+
+
+
+/***********
+
+
+
+
+
+Useless Code
+
+
+
+
+
+
+
+****************/
+
+/*nav > ul {
+	display: table;
+	table-layout: fixed;
+	width: 100%;
+	text-align: center;
+	list-style-type: none;
+	text-align: center;
+}
+
+nav > li {
+	display: table-cell;
+}
+
+nav > li > a {
+	display: block;
+}
+
+*/
